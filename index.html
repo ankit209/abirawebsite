@@ -400,30 +400,35 @@
             </script>
 =======
             </script-->
-            <table class="pure-form">
-                <tbody>
-                    <tr>
-                        <td>Name</td>
-                        <td><input type="text" class="abiraform"/></td>
-                    </tr>
-                    <tr>
-                        <td>Company Name</td>
-                        <td><input type="email" class="abiraform"/></td>
-                    </tr>
-                    <tr>
-                        <td>email</td>
-                        <td><input type="text" class="abiraform"/></td>
-                    </tr>
-                    <tr>
-                        <td>Phone</td>
-                        <td><input type="text" class="abiraform"/></td>
-                    </tr>
-                    <tr>
-                        <td>Message</td>
-                        <td><input type="text" class="abiraform"/></td>
-                    </tr>
-                </tbody>
-            </table>
+
+            <form action="https://formspree.io/your@email.com"
+                  method="POST">
+                <table class="pure-form">
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td><input type="text" name="name" class="abiraform"/></td>
+                        </tr>
+                        <tr>
+                            <td>Company Name</td>
+                            <td><input type="email" name="_replyto" class="abiraform"/></td>
+                        </tr>
+                        <tr>
+                            <td>email</td>
+                            <td><input type="text" class="abiraform"/></td>
+                        </tr>
+                        <tr>
+                            <td>Phone</td>
+                            <td><input type="text" class="abiraform"/></td>
+                        </tr>
+                        <tr>
+                            <td>Message</td>
+                            <td><input type="text" class="abiraform"/></td>
+                        </tr>
+                    </tbody>
+                    <input type="submit" value="Send">
+                </table>
+            </form>
             <!-- Do not change the code! -->
             </div>
            
