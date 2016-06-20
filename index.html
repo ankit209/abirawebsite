@@ -29,15 +29,13 @@
 </head>
 
 <body>
-    <div ng-view=""></div>
      <div id="loader">
       <div class="loading">
-                 <img src="https://lh6.googleusercontent.com/-ly7VNHdei4w/U4rS1A6OOYI/AAAAAAAE_Ac/3WfsX31b3yg/w500-h355-no/tumblr_n5iuntOTjU1sk1rjvo1_500.gif" alt="Loading" />
-  
-            </div>
+            <img src="images/landingPage.jpg" alt="Loading" />
+      </div>
      </div>
 
-    <div class="MaterialDesignAbira">
+    <div class="MaterialDesignAbira fillheight">
         <img src="images/artworkfinal1.png">
     </div>
      <div class="MaterialDesignAbira second">
@@ -427,7 +425,7 @@
 
 
             var loader = function () {
-                $("#loader").delay(5000).fadeOut(400, function () {
+                $("#loader").delay(2000).fadeOut(400, function () {
                     $("body").fadeIn(400);
                 });
             };
@@ -436,17 +434,9 @@
                 loader();
             });
 
-
-
-
-
             //send to the anchor based on URL
             var lis = $('.nav > li');
             menu_focus(lis[0], 1);
-
-
-
-
 
         </script>
         <script>

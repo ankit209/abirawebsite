@@ -1,3 +1,9 @@
+
+@font-face { font-family: GothicBold; src: url('font/gothicBold.ttf'); } 
+@font-face { font-family: Candara; src: url('font/candara.ttf');}
+@font-face { font-family: MyriadPro; src: url('font/myriadPro.ttf'); } 
+@font-face { font-family: MyriadRegular; src: url('font/myriadRegular.otf');}
+
 .container {
     top: 10vh;
     width: 100%;
@@ -197,6 +203,12 @@ a.external-link:hover {
     /*width: 80px;
     height: 100%;*/
 }
+
+.loading img {
+    min-width: 100%;
+    height: auto;
+}
+
 @media (min-width: 1200px) {
     
     .container .content-nopad {
@@ -254,6 +266,7 @@ a.external-link:hover {
     font-family: Roboto, Questrial, 'Open Sans', 'Noto Sans', "Titillium Web", sans-serif;
     font-weight: 300;
 }
+
 .links-big {
     margin-top: 20px;
 }
