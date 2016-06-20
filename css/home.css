@@ -910,6 +910,21 @@ i.fa.fa-star {
     color: white;
     font-weight: bolder;
 }
+#slide-6-0 {
+    width: 100%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+}
+#slide-6-0 {
+    background-image: url("../images/beapart1.jpg");
+    background-attachment: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bolder;
+}
 #slide-5-0 h1 {
     font-weight: 100;
     color: #fff;
@@ -1308,3 +1323,29 @@ p.ContactUsText {
         -webkit-align-items: center;
         align-items: center;
     }
+
+.abiraform {
+    border-radius: 20px;
+}    
+
+.abiratable {
+    padding-top: 20px;
+}
+
+.pure-form {
+    margin-top: 30px;
+}
+
+/*.pure-form tbody {
+    background-color: #f59e4d;
+    opacity: 0.8;
+}*/
+
+.pure-form input[type=text], input[type=email] {    
+    opacity: 0.5;
+    border-radius: 20px;
+}
+
+.pure-form td{
+    padding: 20px;
+}
