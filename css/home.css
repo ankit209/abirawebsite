@@ -1400,10 +1400,13 @@ p.ContactUsText {
     margin-top: 20px;
 }
 .social-nav ul li a i {
-    background-image: url("../images/Social_circle.png");
+    background-image: url("../images/social-icons.png");
     width: 32px;
     display: block;
     height: 32px;
+}
+.social-nav ul {
+    padding-left: 0;
 }
 .social-nav ul li a i.fb {
     background-position: -58px -35px;
