@@ -4,7 +4,7 @@ var thumbnailSliderOptions =
     sliderId: "thumbnail-slider",
     orientation: "horizontal",
     thumbWidth: "300px",
-    thumbHeight: "150px",
+    // thumbHeight: "150px",
     showMode: 3,
     autoAdvance: false,
     selectable: true,
@@ -12,7 +12,7 @@ var thumbnailSliderOptions =
     transitionSpeed: 1000,
     shuffle: false,
     startSlideIndex: 0, //0-based
-    pauseOnHover: true,
+    // pauseOnHover: true,
     initSliderByCallingInitFunc: false,
     rightGap: "default",
     keyboardNav: true,
@@ -34,7 +34,7 @@ var thumbs2Op =
     transitionSpeed: 900,
     shuffle: false,
     startSlideIndex: 0, //0-based
-    pauseOnHover: true,
+    // pauseOnHover: true,
     initSliderByCallingInitFunc: true,
     rightGap: 0,
     keyboardNav: true,
