@@ -21,16 +21,16 @@
     background: rgba(81, 190, 150, 0.28);
 }
 .ThirdSlideWraper {
-        margin-top: 8%;
+    margin-top: 8%;
     margin-left: -220px;
 }
 .ThirdSlideWraper h2 {
-        font-size: 3vw;
+    font-size: 3vw;
     width: 38%;
     background: rgba(243, 107, 33, 0.51);
     margin: 0 auto;
     padding: 6px;
-    padding-bottom: 0;
+    padding-bottom: 10;
     padding-left: 1%;
     /*font-size: 4vw;
     width: 72%;
@@ -60,25 +60,9 @@
     background: rgba(243, 107, 33, 0.72);*/
 }
     
-.two {
-        width: 348px;
-    font-size: 23px;
-    margin: 0 auto;
-    
-    float: left;
-    margin-left: 40px;
-    padding: 15px;
-    color: gainsboro;
-    text-align: justify;
-}
 .three{
-        width: 817px;
+    width: 70%;
     font-size: 14px;
-    padding: 48px;
-    padding-top: 0px;
-    margin-left: 49px;
-    height: 160px;
-    float: left;
     color: gainsboro;
     text-align: center;
 }
@@ -155,7 +139,6 @@ h6,
 h1,
 h2,
 h3 {
-    margin-top: 62px;
     margin-bottom: 10px;
 }
 h4,
@@ -1367,22 +1350,45 @@ p.BeapartText {
     text-align: left;
     color: gainsboro;
 }
-.connectHeading{
-    margin-top: 20px;
-    margin-left: 10px;
-    font-size: 2.4em;
-    text-align: left;
+.corePillarsHeading{
+    margin-top: 5px;
+    font-size: 50px;
+    text-align: center;
     color: gainsboro;
+    width: 68%;
+    font-family: "MyriadPro", Helvetica, Arial, sans-serif;
+}
+.productHeading{
+    margin: auto;
+    padding-left: 10%;
+    width: 50%;
+    font-size: 40px;
+    text-align: center;
+    color: gainsboro;
+    font-family: "MyriadPro", Helvetica, Arial, sans-serif;
+}
+.portfolio{
+    padding-left:130px;
+    padding-right:130px;
+    padding-top: 60px;
+    margin-left:10%;
+    width: 71%;    
 }
 
-.footer {
-    position: absolute;
-    padding-bottom: 107px;
-    /*height: 107px;*/
-    background: rgb(56, 33, 3);
-    z-index: 1040;
-    width: 100%;
-    bottom: 0;
+.impactHeading{
+    margin-top: 5px;
+    font-size: 40px;
+    margin-left: 80px;
+    text-align: center;
+    color: gainsboro;
+    font-family: "MyriadPro", Helvetica, Arial, sans-serif;
+}
+.pageHeading{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 35px;
+    text-align: left;
+    color: gainsboro;
 }
 p.footerText {
     font-size: 18px;
@@ -1405,8 +1411,9 @@ p.ContactUsText {
     display: inline-block;
     margin-right: 35px;
 }
-.social-nav  p {
-    margin-right: 35px;
+.social-nav  li p {
+    display: inline-block;
+    margin-right: 225px;
 }
 .social-nav li a i {
     width: 64px;
@@ -1414,7 +1421,7 @@ p.ContactUsText {
     height: 64px;
 }
 .social-nav  {
-    margin-top: 50px;   
+    margin-top: 40px;   
 }
 .social-nav li a i.facebook {
     background-image: url(../images/facebook64.png);
