@@ -15,9 +15,9 @@ var thumbnailSliderOptions =
     // pauseOnHover: true,
     initSliderByCallingInitFunc: false,
     rightGap: "default",
-    keyboardNav: true,
-    mousewheelNav: true,
-    before: null,
+    // keyboardNav: true,
+    // mousewheelNav: true,
+    // before: null,
     license: "mylicense"
 };
 
