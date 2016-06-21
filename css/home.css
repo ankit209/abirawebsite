@@ -1274,9 +1274,10 @@ p.BeapartText {
 }
 p.footerText {
     top: 20px;
-    left: 6%;
-    font-size: 22px;
-    color: #ff7c07;
+    left: 2%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
 }
 p.ContactUsText1 {
     text-align: center;
@@ -1392,4 +1393,30 @@ p.ContactUsText {
     cursor: pointer; cursor: hand;
     font-weight: bolder;
     border-radius: 10px;
+}
+.social-nav ul li {
+    display: inline-block;
+    margin-right: 3px;
+    margin-top: 20px;
+}
+.social-nav ul li a i {
+    background-image: url("../images/social-icons.png");
+    width: 32px;
+    display: block;
+    height: 32px;
+}
+.social-nav ul {
+    padding-left: 0;
+}
+.social-nav ul li a i.fb {
+    background-position: -58px -35px;
+}
+.social-nav ul li a i.tw {
+    background-position: -422px -38px;
+}
+.social-nav ul li a i.yt {
+    background-position: -360px -39px;
+}
+.social-nav ul li a i.ln {
+    background-position: -179px -39px;
 }
