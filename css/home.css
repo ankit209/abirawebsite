@@ -40,16 +40,7 @@
     padding-left: 20%;*/
 }
 
-.pillar{
-    padding-top: 20px;
-    width: 60%;
-    margin: 0 auto;
-    padding: 20px;
-    margin-left: 50px;
-    font-size: 2.4em;
-    text-align: left;
-    color: gainsboro;
-}
+
 .one {
 
     width: 382px;
@@ -1263,32 +1254,6 @@ p.BeapartText {
     font-size: 23px;
     color: white;
 }
-.footer {
-    position: absolute;
-    padding-bottom: 107px;
-    /*height: 107px;*/
-    background: rgb(56, 33, 3);
-    z-index: 1040;
-    width: 100%;
-    bottom: 0;
-}
-p.footerText {
-    top: 20px;
-    left: 2%;
-    font-size: 18px;
-    line-height: 22px;
-    color: #fff;
-}
-p.ContactUsText1 {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 0px;
-}
-p.ContactUsText {
-    text-align: center;
-    font-size: 22px;
-    margin-top: 8vh;
-}
 
     .swiper-container {
     width: 80vw;
@@ -1378,6 +1343,7 @@ p.ContactUsText {
 
 .abiraformkey{
     font-size: 1.3em;
+    color: gainsboro;
 }
 
 .abiraformsubmit{
@@ -1394,29 +1360,72 @@ p.ContactUsText {
     font-weight: bolder;
     border-radius: 10px;
 }
+
+.pillar{
+    padding-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 2.4em;
+    text-align: left;
+    color: gainsboro;
+}
+.connectHeading{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 2.4em;
+    text-align: left;
+    color: gainsboro;
+}
+
+.footer {
+    position: absolute;
+    padding-bottom: 107px;
+    /*height: 107px;*/
+    background: rgb(56, 33, 3);
+    z-index: 1040;
+    width: 100%;
+    bottom: 0;
+}
+p.footerText {
+    top: 20px;
+    left: 2%;
+    font-size: 18px;
+    line-height: 22px;
+    color: gainsboro;
+    font-family: Roboto, 'Open Sans', 'Noto Sans', "Titillium Web", sans-serif;
+}
+p.ContactUsText1 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0px;
+}
+p.ContactUsText {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 8vh;
+}
+
 .social-nav ul li {
     display: inline-block;
-    margin-right: 3px;
-    margin-top: 20px;
+    margin-right: 30px;
 }
 .social-nav ul li a i {
-    background-image: url("../images/social-icons.png");
-    width: 32px;
+    width: 64px;
     display: block;
-    height: 32px;
+    height: 64px;
 }
 .social-nav ul {
-    padding-left: 0;
+    margin-top: 50px;   
 }
-.social-nav ul li a i.fb {
-    background-position: -58px -35px;
+.social-nav ul li a i.facebook {
+    background-image: url(../images/facebook64.png);
 }
-.social-nav ul li a i.tw {
-    background-position: -422px -38px;
+.social-nav ul li a i.instagram {
+    background-image: url(../images/instagram64.png);
 }
-.social-nav ul li a i.yt {
-    background-position: -360px -39px;
+.social-nav ul li a i.linkedin {
+    background-image: url(../images/linkedin64.png);
 }
-.social-nav ul li a i.ln {
-    background-position: -179px -39px;
-}
+
