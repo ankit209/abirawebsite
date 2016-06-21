@@ -1344,8 +1344,9 @@ p.ContactUsText {
 .pure-form input[type=text], input[type=email] {    
     opacity: 0.5;
     border-radius: 20px;
+    padding: 6px;
 }
 
 .pure-form td{
-    padding: 20px;
+    padding: 14px;
 }
