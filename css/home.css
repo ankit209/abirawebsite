@@ -1341,8 +1341,12 @@ p.ContactUsText {
     }
 
 .abiraform {
-    border-radius: 20px;
-}    
+    border-radius: 10px;
+}   
+
+.abiraformexpanded {
+    height: 100px;
+}
 
 .abiratable {
     padding-top: 20px;
@@ -1357,12 +1361,35 @@ p.ContactUsText {
     opacity: 0.8;
 }*/
 
-.pure-form input[type=text], input[type=email] {    
+.pure-form input[type=text], input[type=email], textarea {    
     opacity: 0.5;
-    border-radius: 20px;
+    width: 400px;
+    border-radius: 10px;
     padding: 6px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
 }
 
 .pure-form td{
-    padding: 14px;
+    padding: 6px;
+}
+
+.abiraformkey{
+    font-size: 1.3em;
+}
+
+.abiraformsubmit{
+    font-size: 1.4em; 
+    margin-left: 250px;
+    margin-top: 20px;
+    padding: 6px;
+    width: 100px;
+    color: white;
+    font-family: Roboto, 'Open Sans', 'Noto Sans', "Titillium Web", sans-serif;
+    background-color: #000000;
+    opacity: 0.5;
+    cursor: pointer; cursor: hand;
+    font-weight: bolder;
+    border-radius: 10px;
 }
