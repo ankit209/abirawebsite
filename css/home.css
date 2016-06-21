@@ -1,8 +1,8 @@
 
-@font-face { font-family: GothicBold; src: url('font/gothicBold.ttf'); } 
-@font-face { font-family: Candara; src: url('font/candara.ttf');}
-@font-face { font-family: MyriadPro; src: url('font/myriadPro.ttf'); } 
-@font-face { font-family: MyriadRegular; src: url('font/myriadRegular.otf');}
+@font-face { font-family: GothicBold; src: url('../font/gothicBold.ttf'); } 
+@font-face { font-family: Candara; src: url('../font/candara.ttf');}
+@font-face { font-family: MyriadPro; src: url('../font/myriadPro.ttf'); } 
+@font-face { font-family: MyriadRegular; src: url('../font/myriadRegular.otf');}
 
 .container {
     top: 10vh;

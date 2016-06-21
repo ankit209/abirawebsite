@@ -11,12 +11,12 @@ var thumbnailSliderOptions =
     slideInterval: 3000,
     transitionSpeed: 1000,
     shuffle: false,
-    startSlideIndex: 0, //0-based
-    // pauseOnHover: true,
+    startSlideIndex: 1, //0-based
+    pauseOnHover: false,
     initSliderByCallingInitFunc: false,
     rightGap: "default",
     keyboardNav: true,
-    // mousewheelNav: true,
+    mousewheelNav: false,
     before: null,
     license: "b2b75"
 };
@@ -33,8 +33,8 @@ var thumbs2Op =
     slideInterval: 3000,
     transitionSpeed: 900,
     shuffle: false,
-    startSlideIndex: 0, //0-based
-    // pauseOnHover: true,
+    startSlideIndex: 1, //0-based
+    pauseOnHover: false,
     initSliderByCallingInitFunc: true,
     rightGap: 0,
     keyboardNav: true,
