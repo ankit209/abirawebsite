@@ -193,10 +193,28 @@ a.external-link:hover {
     height: 100%;*/
 }
 
-.loading img {
-    min-width: 100%;
-    height: auto;
+.loading img{
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+    
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+    
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .loading img{
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
 
 @media (min-width: 1200px) {
     
@@ -1321,8 +1339,9 @@ p.BeapartText {
 }
 
 .abiraformkey{
-    font-size: 1.3em;
+    font-size: 18px;
     color: gainsboro;
+    font-family: Candara, 'Open Sans', 'Noto Sans', "Titillium Web", sans-serif;
 }
 
 .abiraformsubmit{
@@ -1394,7 +1413,7 @@ p.footerText {
     font-size: 18px;
     line-height: 22px;
     color: gainsboro;
-    font-family: Roboto, 'Open Sans', 'Noto Sans', "Titillium Web", sans-serif;
+    font-family: Candara, 'Open Sans', 'Noto Sans', "Titillium Web", sans-serif;
 }
 p.ContactUsText1 {
     text-align: center;
