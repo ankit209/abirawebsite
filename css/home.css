@@ -1250,7 +1250,8 @@ p.BeapartText {
 }
 .footer {
     position: absolute;
-    height: 107px;
+    padding-bottom: 107px;
+    /*height: 107px;*/
     background: rgb(56, 33, 3);
     z-index: 1040;
     width: 100%;
