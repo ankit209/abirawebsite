@@ -39,14 +39,23 @@
     padding-bottom: 0;
     padding-left: 20%;*/
 }
+
+.pillar{
+    padding-top: 20px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 2.4em;
+    text-align: left;
+    color: gainsboro;
+}
 .one {
 
     width: 382px;
-    margin: 0 auto;
-    
     float: left;
     padding: 15px;
-    margin-left: 90px;
+    margin-left: 50px;
     font-size: 23px;
     text-align: justify;
     color: gainsboro;
@@ -130,19 +139,25 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased !important;
 }
+
 h1,
+.h1 {
+    font-family: "MyriadPro", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6,
-.h1,
 .h2,
 .h3,
 .h4,
 .h5,
 .h6 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Candara", Helvetica, Arial, sans-serif;
     font-weight: 500;
     line-height: 1.1;
 }
