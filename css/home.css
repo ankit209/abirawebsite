@@ -550,10 +550,6 @@ div#fixed-menu img {
     padding-top: 50vh;
     position: absolute;/*edited*/
 }
-.HomeSlide2 h1{
-    padding-left: 7vh;
-    padding-right: 7vh;/*edited*/
-}
 .HomeSlide3 {
     background-image: url(../images/homebg3.jpg);
     background-size: cover;
@@ -1389,8 +1385,6 @@ p.BeapartText {
     bottom: 0;
 }
 p.footerText {
-    top: 20px;
-    left: 2%;
     font-size: 18px;
     line-height: 22px;
     color: gainsboro;
@@ -1407,25 +1401,28 @@ p.ContactUsText {
     margin-top: 8vh;
 }
 
-.social-nav ul li {
+.social-nav  li {
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 35px;
 }
-.social-nav ul li a i {
+.social-nav  p {
+    margin-right: 35px;
+}
+.social-nav li a i {
     width: 64px;
     display: block;
     height: 64px;
 }
-.social-nav ul {
+.social-nav  {
     margin-top: 50px;   
 }
-.social-nav ul li a i.facebook {
+.social-nav li a i.facebook {
     background-image: url(../images/facebook64.png);
 }
-.social-nav ul li a i.instagram {
+.social-nav li a i.instagram {
     background-image: url(../images/instagram64.png);
 }
-.social-nav ul li a i.linkedin {
+.social-nav li a i.linkedin {
     background-image: url(../images/linkedin64.png);
 }
 
