@@ -4,7 +4,7 @@ var thumbnailSliderOptions =
     sliderId: "thumbnail-slider",
     orientation: "horizontal",
     thumbWidth: "300px",
-    thumbHeight: "150px",
+    thumbHeight: "300px",
     showMode: 3,
     autoAdvance: false,
     selectable: true,

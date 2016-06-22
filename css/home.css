@@ -1345,6 +1345,7 @@ p.BeapartText {
     text-align: center;
     color: gainsboro;
     width: 68%;
+    font-weight: bolder;
     font-family: "MyriadPro", Helvetica, Arial, sans-serif;
 }
 .productHeading{
@@ -1354,6 +1355,7 @@ p.BeapartText {
     font-size: 40px;
     text-align: center;
     color: gainsboro;
+    font-weight: bolder;
     font-family: "MyriadPro", Helvetica, Arial, sans-serif;
 }
 .portfolio{
@@ -1370,6 +1372,7 @@ p.BeapartText {
     margin-left: 80px;
     text-align: center;
     color: gainsboro;
+    font-weight: bolder;
     font-family: "MyriadPro", Helvetica, Arial, sans-serif;
 }
 .pageHeading{
