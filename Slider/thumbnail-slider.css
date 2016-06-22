@@ -42,8 +42,8 @@
     display:inline-block;
     *display:inline!important; /*IE7 hack*/
     
-    width: 300px;
-    height: 300px;
+    /*width: 300px;
+    height: 300px;*/
 
     margin:0 4px; /* Spacing between thumbs*/
     transition:border-color 0.5s;
