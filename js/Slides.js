@@ -46,13 +46,13 @@ function enable_arrows( dataslide ) {
 	if(lastdataslide2nd > 0) firstslide = false;
 	switch(dataslide){
 		case 2:
-			if(lastdataslide2nd < 3) lastslide = false;
+			if(lastdataslide2nd < 0) lastslide = false;
 			break;
 		case 3:
-			if(lastdataslide2nd < 3) lastslide = false;
+			if(lastdataslide2nd < 0) lastslide = false;
 			break;
 		case 4:
-			if(lastdataslide2nd < 1) lastslide = false;
+			if(lastdataslide2nd < 0) lastslide = false;
 			break;
 		default:
 			firstslide = true;
