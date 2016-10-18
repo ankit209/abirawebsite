@@ -163,9 +163,6 @@
                               <a class=" thumb" href="images/productimage1.jpg">
                               </a>
                            </li>
-                           <li>
-                              <a class="thumb" href="images/productimage2.jpg"></a>
-                           </li>
                            <li style="display:inline-block;width:300px;z-index:0">
                               <a class="thumb" href="images/productimage3.jpg"></a>
                            </li>
@@ -216,6 +213,7 @@
       <div id="connect">
          <div class="main-section floatleftslide" id="slide-6-0" >
             <h2 class="pageHeading">To Request a detailed catalog</h2>
+            <div class='connectwraper'>
             <form action="https://formspree.io/connect@abiracreations.com"
                method="POST">
                <table class="pure-form">
@@ -246,6 +244,7 @@
                   <input class="abiraformsubmit" type="submit" value="Send">
                </div>
             </form>
+            <div class='addressinLineWrap'>
             <div class="AddressWrap">
                <p class="footerText">Abira Creations Pvt. Ltd.<br /> 308, Rainbow Plaza, Pimple Saudagar<br /> Pune-411027, Maharashtra, India<br />Phone:+91-20 46780167<br />
                   Mail Id: connect@abiracreations.com
@@ -256,6 +255,8 @@
                <li><a href="https://www.linkedin.com/company/7966825" target="_blank"><i class="linkedin"></i></a> </li>
                <li><a href="https://www.instagram.com/abiracreations" target="_blank"><i class="instagram"></i></a> </li>
             </ul>
+            </div>
+            </div>
          </div>
       </div>
       <script src="js/jquery.min.js"></script>
@@ -280,8 +281,8 @@
                  menu = target;
              $target = $(target);
              $('html, body').stop().animate({
-                 'scrollTop': $target.offset().top+2
-             }, 500, 'swing', function () {
+                 'scrollTop': $target.offset().top+1
+             }, 1000, 'swing', function () {
                  window.location.hash = target;
                  $(document).on("scroll", onScroll);
              });

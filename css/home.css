@@ -70,7 +70,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    height: 60%;
+    height: 40%;
     align-items: center;
 }
 #menu-center ul {
@@ -181,7 +181,7 @@ div#loader {
     top: 0;
     bottom: 0;
     text-align: center;
-    z-index: 10000;
+    z-index: 100000;
     background: white;
 }
 h1,
@@ -492,6 +492,7 @@ div#fixed-menu img {
     color: #fff;
 }
 .ThirdSlideWraper {
+    background: rgba(243, 107, 33, 0.51);
     width: 40%;
     margin-left: 20%;
     padding: 18px;
@@ -550,7 +551,6 @@ p.BeapartText {
 }
 .swiper-container {
     width: 80vw;
-    height: 70vh;
     margin: 20px auto;
 }
 .swiper-slide {
@@ -648,7 +648,7 @@ textarea {
     padding-top: 20px;
     padding: 12px;
     margin-left: 50px;
-    font-size: 2.4vw;
+    font-size: 2vw;
     text-align: left;
     color: gainsboro;
 }
@@ -735,7 +735,7 @@ p.ContactUsText {
     background-image: url(../images/linkedin64.png);
 }
 /*mediaQuery */
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 568px) and (max-width: 900px) {
  div#wrapper_caption img {
     position: relative;
     left: 40% !important;
@@ -754,12 +754,14 @@ p.ContactUsText {
     margin: 0 auto !important;
 }
 .ThirdSlideWraper {
-    width: 65% !important;
+    width: 51% !important;
+    height: 15%;
     margin-top: 6% !important;
-    margin-left: 0 !important;
+    margin-left: 20px !important;
 }
  .ThirdSlideWraper h2 {
     font-size: 3vw !important;
+    padding:8px !important;
  }
  .pillar {
     font-size: 2vw !important;
@@ -782,6 +784,40 @@ p.ContactUsText {
     width: 100%;
     height: 100%;
     padding-top: 0% !important ;
+}
+#product {
+    background-color: blue;
+    height: 150%;
+    width: 100%;
+}
+.addressinLineWrap {
+    margin-left: 10px;
+    display: inline-block;
+    position: absolute;
+}
+.connectwraper {
+    display: -webkit-inline-box;
+}
+.pure-form td {
+    padding: 2px !important;
+    display: grid !important;
+}
+form {
+    margin-top: 0px !important;
+}
+.pageHeading {
+    margin-top: 10px !important;
+    text-align: center !important;
+}
+.navbar-fixed-top{
+    height: 15% !important;
+}
+
+
+.swiper-container {
+    width: 83vw;
+    height: 50vh;
+    margin: 20px auto;
 }
 }
 @media (min-width: 300px) and (max-width: 760px) {
@@ -826,17 +862,17 @@ p.ContactUsText {
     .ThirdSlideWraper h2 {
         font-size: 8vw;
         width: 75%;
-        background: rgba(243, 107, 33, 0.51);
         margin: 0 auto;
         padding: 24px;
         padding-bottom: 10;
         text-align: center;
         padding-left: 1%;
     }
-    .ThirdSlideWraper {
-        width:90%;
-        margin-top: 15% ;
-        margin-left: 0 ;
+   .ThirdSlideWraper {
+        width: 70%;
+        margin-top: 15%;
+        margin-left: 0;
+        margin: 0 auto;
     }
     .swiper-slide.swiper-slide-duplicate {
         margin: 0 !important;
@@ -905,7 +941,7 @@ p.ContactUsText {
         padding: 8px;
     }
     #wrapper_caption {
-        padding-top: 15vh !important;
+        padding-top: 25vh !important;
         width: 100%;
         padding: 0%;
     }
@@ -931,10 +967,10 @@ p.ContactUsText {
     }
     .pure-form td {
         padding: 6px;
-        display: inline;
+        display: grid;
     }
     .pageHeading {
-        margin-top: 70px !important;
+        margin-top: 70px ;
         text-align: center !important;
     }
     .SumitbtnWrap {
@@ -948,4 +984,16 @@ p.ContactUsText {
         right: 0 !important;
         width: 100px;
     }
+    .social-nav li a i {
+    width: 50px;
+    display: flex;
+    height: 50px;
+    background-position: 47% 44%;
+    border-radius: 7px;
+   }
+   #connect {
+    background-color: green;
+    height: 130% !important;
+    width: 100%;
+   }
 }
